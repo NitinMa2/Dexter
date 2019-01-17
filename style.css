@@ -290,4 +290,7 @@ button {
     #footer .centre img {
       width: 25%;
     }
+    #bio {
+      padding: 5vh;
+    }
 }
