@@ -1,8 +1,7 @@
-/*
-To Do:
-Responsive
-Content
-*/
+* {
+  transition: all 0.3s;
+}
+
 body {
 	margin: 0;
 	padding: 0;
@@ -91,7 +90,7 @@ li {
 
 .images {
 	display: grid;
-	grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+	grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
 	justify-items: center;
 	align-items: start;
 	grid-gap: 5px;
@@ -148,6 +147,7 @@ figure.snip0015 p {
 }
 figure.snip0015 h2 {
   word-spacing: -0.15em;
+  font-size: 180%;
   font-weight: 300;
   text-transform: uppercase;
   -webkit-transform: translate3d(0%, 50%, 0);
@@ -159,6 +159,7 @@ figure.snip0015 h2 span {
   font-weight: 800;
 }
 figure.snip0015 p {
+  font-size: 100%;
   font-weight: 200	;
   -webkit-transition-delay: 0s;
   transition-delay: 0s;
@@ -293,6 +294,6 @@ button {
 }
 @media screen and (max-width:992px) {
     #bio {
-      padding: 2px;
+      padding: 3em 1.2em 3em 1.2em;
     }
 }
