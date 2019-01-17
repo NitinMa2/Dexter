@@ -293,6 +293,6 @@ button {
 }
 @media screen and (max-width:992px) {
     #bio {
-      padding: 10px;
+      padding: 2px;
     }
 }
