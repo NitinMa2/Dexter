@@ -53,7 +53,7 @@ nav {
 }
 
 #header {
-	background-image: linear-gradient(rgba(0,0,0,0.15), rgba(0,0,0,0.04)), url("/img/dog.jpg");
+	background-image: linear-gradient(rgba(0,0,0,0.15), rgba(0,0,0,0.04)), url("./img/dog.jpg");
 	background-size: cover;
 	background-position: center 0px;
 	height: 100vh;
@@ -195,7 +195,7 @@ figure.snip0015:hover figcaption::before {
 }
 
 #contact {
-	background-image: linear-gradient(rgba(0,0,0,0.05), rgba(0,0,0,0.05)), url("/img/contact.jpg");
+	background-image: linear-gradient(rgba(0,0,0,0.05), rgba(0,0,0,0.05)), url("./img/contact.jpg");
 	background-size: cover;
 	background-position: center;
 	background-attachment: fixed;
