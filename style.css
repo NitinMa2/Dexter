@@ -290,7 +290,9 @@ button {
     #footer .centre img {
       width: 25%;
     }
+}
+@media screen and (max-width:992px) {
     #bio {
-      padding: 5vh;
+      padding: 10px;
     }
 }
